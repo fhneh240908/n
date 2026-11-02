@@ -3,6 +3,8 @@ Name: iocaste untether
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: staturnz
+Depends: firmware (>= 9.3.5), firmware (<< 10.0)
+Conflicts: cy+cpu.arm64
 Author: staturnz
 Section: Untether
 Priority: optional
